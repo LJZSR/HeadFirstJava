@@ -32,5 +32,18 @@ public class Mixed2 {
     b.m1();
     c.m2();
     a.m3();
+    System.out.println();
+    c.m1();
+    c.m2();
+    c.m3();
+    System.out.println();
+    a.m1();
+    b.m2();
+    c.m3();
+    System.out.println();
+    a2.m1();
+    a2.m2();
+    a2.m3();
+    System.out.println();
   }
 }
