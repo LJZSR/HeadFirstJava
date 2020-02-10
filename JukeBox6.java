@@ -14,6 +14,15 @@ class Song implements Comparable<Song> {
     bpm = b;
   }
 
+  public boolean equals(Object aSong) {
+    Song s = (Song) aSong;
+    return getTitle().equals(s.getTitle());
+  }
+
+  public int hashCode() {
+    return title.hashCode();
+  }
+
   public String getTitle() {
     return title;
   }
